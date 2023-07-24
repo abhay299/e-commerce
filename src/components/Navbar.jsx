@@ -2,10 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import { Search, ShoppingCartOutlined } from '@material-ui/icons';
 import { Badge } from '@material-ui/core';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
 	height: 60px;
 	${'' /* background-color: red; */}
+	${mobile({ height: "50px" })}
 `;
 
 const Wrapper = styled.div`
@@ -15,6 +17,7 @@ const Wrapper = styled.div`
 	align-items: center;
 	justify-content: space-between;
 	${'' /* background-color: red; */}
+	${mobile({ padding: "10px 0px" })}
 `;
 
 const Left = styled.div`
@@ -49,6 +52,7 @@ const Center = styled.div`
 
 const Logo = styled.h1`
 	font-weight: bold;
+	${mobile({ fontSize: "24px" })};
 `;
 
 const Right = styled.div`
@@ -57,12 +61,14 @@ const Right = styled.div`
 	align-items: center;
 	justify-content: flex-end;
 	${'' /* background-color: pink; */}
+	${mobile({ justifyContent: "center" })};
 `;
 
 const MenuItem = styled.div`
 	font-size: 14px;
 	cursor: pointer;
 	margin-left: 25px;
+	${mobile({ fontSize: "12px", marginLeft: "10px" })};
 `;
 
 const Navbar = () => {
