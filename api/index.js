@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
@@ -19,7 +20,15 @@ mongoose.connect(process.env.MONGO_URL)
 // app.get("/api/test", () => {
 // 	console.log("Test is successful!")
 // })
+
+//MIDDLEWARES
+app.use((req, res, next) => {
+	res.header("Access-Control-Allow-Credentials", true);
+	next();
+});
+
 app.use(express.json());
+app.use(cors());
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
 app.use("/api/products", productRoute);
