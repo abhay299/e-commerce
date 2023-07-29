@@ -1,4 +1,4 @@
-const router = require("express");
+const router = require("express").Router();
 const stripe = require("stripe")(process.env.STRIPE_KEY);
 
 router.post("/payment", (req, res) => {
@@ -8,7 +8,7 @@ router.post("/payment", (req, res) => {
 		currency: "inr",
 	}, (stripeErr, stripeRes) => {
 		if (stripeErr) {
-			res.status(500).json(err);
+			res.status(500).json(stripeErr);
 		} else {
 			res.status(200).json(stripeRes);
 		}
