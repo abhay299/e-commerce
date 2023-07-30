@@ -54,6 +54,7 @@ const Center = styled.div`
 
 const Logo = styled.h1`
 	font-weight: bold;
+	color: black;
 	${mobile({ fontSize: "24px" })};
 `;
 
@@ -88,7 +89,9 @@ const Navbar = () => {
 					</SearchContainer>
 				</Left>
 				<Center>
-					<Logo>MyFits</Logo>
+					<Link style={{ textDecoration: "none" }} to={"/"}>
+						<Logo>MyFits</Logo>
+					</Link>
 				</Center>
 				<Right>
 					<MenuItem>REGISTER</MenuItem>
