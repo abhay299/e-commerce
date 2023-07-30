@@ -1,4 +1,4 @@
-<h1>E-commerce Backend.</h1>
-<p>Everything that happens behind the pages is here.</p>
-<h2>Built with Node.js and Express.js</h2>
+<h1>E-commerce Frontend</h1>
+<p>Everything that happens on the page is here.</p>
+<h2>Built with ReactJS, CSS3, HTML5</h2>
 
