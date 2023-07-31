@@ -5,6 +5,7 @@ import CategoryItem from './CategoryItem';
 import { mobile } from '../responsive';
 
 const Container = styled.div`
+	font-family: 'Mulish', sans-serif;
 	display: flex;
 	padding: 20px;
 	justify-content: space-between;

@@ -3,7 +3,7 @@ export const sliderItems = [
 		id: 1,
 		img: "https://images.unsplash.com/photo-1513094735237-8f2714d57c13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNob3BwaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60",
 		title: "SUMMER SALE",
-		desc: "DON'T COMPROMISE ON STYLE! GET UPTO 30% ON FOR NEW ARRIVALS.",
+		desc: "DON'T COMPROMISE ON STYLE! GET UPTO 30% OFF ON NEW ARRIVALS.",
 		bg: "f5fafd",
 	},
 	{
@@ -25,20 +25,20 @@ export const sliderItems = [
 export const categories = [
 	{
 		id: 1,
-		img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-		title: "SHIRT STYLE!",
+		img: "https://images.unsplash.com/photo-1610886886310-be2828d6afd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE4fHxtb2RlbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
+		title: "SHIRT STYLE",
 		cat: "women"
 	},
 	{
 		id: 2,
-		img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-		title: "LOUNGEWEAR LOVE",
+		img: "https://plus.unsplash.com/premium_photo-1664882424563-2c0cd50215a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM5fHxtb2RlbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
+		title: "LOUNGE WEAR LOVE",
 		cat: "coat"
 	},
 	{
 		id: 3,
-		img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-		title: "LIGHT JACKETS",
+		img: "https://images.unsplash.com/photo-1618375531912-867984bdfd87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+		title: "JEANS",
 		cat: "jeans"
 	},
 ];

@@ -14,6 +14,7 @@ import { useDispatch } from "react-redux";
 const Container = styled.div``;
 
 const Wrapper = styled.div`
+  font-family: 'Mulish', sans-serif;
   padding: 50px;
   display: flex;
   ${mobile({ padding: "10px", flexDirection: "column" })}

@@ -7,9 +7,9 @@ import { useSelector } from "react-redux";
 import { Link } from 'react-router-dom';
 
 const Container = styled.div`
-	height: 60px;
+	height: 80px;
 	${'' /* background-color: red; */}
-	${mobile({ height: "50px" })}
+	${mobile({ height: "60px" })}
 `;
 
 const Wrapper = styled.div`
@@ -23,6 +23,7 @@ const Wrapper = styled.div`
 `;
 
 const Left = styled.div`
+	font-family: 'Hind Siliguri', sans-serif;
 	flex: 1;
 	display:flex;
 	align-items: center;
@@ -53,12 +54,14 @@ const Center = styled.div`
 `;
 
 const Logo = styled.h1`
+	font-family: 'Edu SA Beginner', cursive;
 	font-weight: bold;
 	color: black;
 	${mobile({ fontSize: "24px" })};
 `;
 
 const Right = styled.div`
+	font-family: 'Hind Siliguri', sans-serif;
 	flex: 1;
 	display: flex;
 	align-items: center;

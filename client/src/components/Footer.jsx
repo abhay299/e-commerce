@@ -4,6 +4,7 @@ import { styled } from 'styled-components';
 import { mobile } from '../responsive';
 
 const Container = styled.div`
+	font-family: 'Mulish', sans-serif;
 	display: flex;
 	${mobile({ flexDirection: "column" })};
 `;
@@ -15,7 +16,9 @@ const Left = styled.div`
 	padding:20px;
 `;
 
-const Logo = styled.h1``;
+const Logo = styled.h1`
+	font-family: 'Edu SA Beginner', cursive;
+`;
 
 const Desc = styled.p`
 	margin: 20px 0px;
