@@ -204,12 +204,12 @@ const Cart = () => {
 			<Wrapper>
 				<Title>YOUR BAG</Title>
 				<Top>
-					<TopButton>CONTINUE SHOPPING</TopButton>
+					<TopButton onClick={() => navigate("/products")}>CONTINUE SHOPPING</TopButton>
 					<TopTexts>
 						<TopText>Shopping Bag(2)</TopText>
 						<TopText>Wishlist(0)</TopText>
 					</TopTexts>
-					<TopButton type="filled">CHECKOUT NOW</TopButton>
+					{/* <TopButton type="filled">CHECKOUT NOW</TopButton> */}
 				</Top>
 				<Bottom>
 					<Info>

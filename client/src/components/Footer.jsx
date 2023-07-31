@@ -18,6 +18,7 @@ const Left = styled.div`
 
 const Logo = styled.h1`
 	font-family: 'Edu SA Beginner', cursive;
+	text-align: center;
 `;
 
 const Desc = styled.p`
@@ -26,6 +27,8 @@ const Desc = styled.p`
 
 const SocialContainer = styled.div`
 	display: flex;
+	align-items: center;
+	justify-content: center;
 `;
 const SocialIcon = styled.div`
 	width: 40px;

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { styled } from 'styled-components';
 import { sliderItems } from '../data';
 import { mobile } from '../responsive';
+import { useNavigate } from 'react-router-dom';
 
 const Container = styled.div`
 	font-family: 'Mulish', sans-serif;
@@ -80,10 +81,14 @@ const Button = styled.button`
 	font-size: 20pt;
 	background-color: transparent;
 	cursor: pointer;
+	&:hover{
+		background-color: lightblue;
+		transition: 1s ease;
+	}
 `;
 
 const Slider = () => {
-
+	const navigate = useNavigate();
 	const [slideindex, setSlideindex] = useState(0);
 
 	const handleClick = (direction) => {
@@ -110,7 +115,7 @@ const Slider = () => {
 							<Desc>
 								{item.desc}
 							</Desc>
-							<Button>SHOP NOW</Button>
+							<Button onClick={() => navigate("/products")}>SHOP NOW</Button>
 						</InfoContainer>
 					</Slide>
 				))}

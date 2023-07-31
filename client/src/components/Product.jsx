@@ -51,6 +51,7 @@ const Image = styled.img`
 
 
 const Icon = styled.div`
+	color: gray;
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
@@ -78,7 +79,7 @@ const Product = ({ item }) => {
 				</Icon>
 				<Icon>
 					<Link to={`/product/${item._id}`}>
-						<SearchOutlined />
+						<SearchOutlined style={{ color: "gray" }} />
 					</Link>
 				</Icon>
 				<Icon>
