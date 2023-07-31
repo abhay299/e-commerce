@@ -5,6 +5,7 @@ import { sliderItems } from '../data';
 import { mobile } from '../responsive';
 
 const Container = styled.div`
+	font-family: 'Mulish', sans-serif;
 	width: 100%;
 	height: 100vh;
 	display: flex;
