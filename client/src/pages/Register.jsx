@@ -9,7 +9,8 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9kZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60")
+    url("https://images.pexels.com/photos/904350/pexels-photo-904350.jpeg?auto=compress&cs=tinysrgb&w=600")
+    ${'' /* url("https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9kZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60") */}
       center;
   background-size: cover;
   display: flex;
@@ -26,7 +27,7 @@ const Wrapper = styled.div`
 
 const Title = styled.h1`
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 700;
 `;
 
 const Form = styled.form`
@@ -60,20 +61,21 @@ const Register = () => {
     <Container>
       <Wrapper>
         <Title>
-          <Form>
-            <Input placeholder='First Name' />
-            <Input placeholder='Last Name' />
-            <Input placeholder='Username' />
-            <Input placeholder='Email Address' />
-            <Input placeholder='Password' />
-            <Input placeholder='Confirm Password' />
-            <Agreement>
-              By creating an account, I consent to the processing of
-              my personal data in accordance with the <b>Privacy Policy</b>
-            </Agreement>
-            <Button>CREATE</Button>
-          </Form>
+          Register
         </Title>
+        <Form>
+          <Input placeholder='First Name' />
+          <Input placeholder='Last Name' />
+          <Input placeholder='Username' />
+          <Input placeholder='Email Address' />
+          <Input placeholder='Password' />
+          <Input placeholder='Confirm Password' />
+          <Agreement>
+            By creating an account, I consent to the processing of
+            my personal data in accordance with the <b>Privacy Policy</b>
+          </Agreement>
+          <Button>CREATE</Button>
+        </Form>
       </Wrapper>
     </Container>
   )
