@@ -12,20 +12,20 @@ MyFits is an e-commerce platform built with **ReactJS**, **CSS3**, and **Redux-T
 
 Explore some screenshots from the MyFits E-commerce Frontend.
 
-![Screenshot 1](/client/public/MyFits/mf-HomePage.png)
+![Screenshot 1](./client/public/MyFits/mf-HomePage.png)
 _Home Page_
 
-![Screenshot 2](/client/public/MyFits/mf-Categories.png)
+![Screenshot 2](./client/public/MyFits/mf-Categories.png)
 _Wide Range of Categories_
 
-![Screenshot 3](/client/public/MyFits/mf-womenProducts.png)
+![Screenshot 3](./client/public/MyFits/mf-womenProducts.png)
 _Some of the Products_
 
-![Screenshot 4](/client/public/MyFits/mf-Cart.png)
+![Screenshot 4](./client/public/MyFits/mf-Cart.png)
 _Checkout Page_
 
-![Screenshot 4](/client/public/MyFits/mf-Register.png)
+![Screenshot 4](./client/public/MyFits/mf-Register.png)
 _Sign-up Page_
 
-![Screenshot 4](/client/public/MyFits/mf-Login.png)
+![Screenshot 4](./client/public/MyFits/mf-Login.png)
 _Sign-in Page_
