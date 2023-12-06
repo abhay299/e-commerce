@@ -24,8 +24,8 @@ _Some of the Products_
 ![Screenshot 4](./client/public/MyFits/mf-Cart.png)
 _Checkout Page_
 
-![Screenshot 4](./client/public/MyFits/mf-Register.png)
+![Screenshot 5](./client/public/MyFits/mf-Register.png)
 _Sign-up Page_
 
-![Screenshot 4](./client/public/MyFits/mf-Login.png)
+![Screenshot 5](./client/public/MyFits/mf-Login.png)
 _Sign-in Page_
