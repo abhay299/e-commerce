@@ -27,5 +27,5 @@ _Checkout Page_
 ![Screenshot 5](./client/public/MyFits/mf-Register.png)
 _Sign-up Page_
 
-![Screenshot 5](./client/public/MyFits/mf-Login.png)
+![Screenshot 6](./client/public/MyFits/mf-Login.png)
 _Sign-in Page_
