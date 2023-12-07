@@ -59,11 +59,6 @@ const Newsletter = () => {
           <Send />
         </Button>
       </InputContainer>
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5113933315551343"
-        crossorigin="anonymous"
-      ></script>
     </Container>
   );
 };
